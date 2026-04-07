@@ -765,6 +765,7 @@ module.exports = function(eleventyConfig) {
   userEleventySetup(eleventyConfig);
 
   return {
+    pathPrefix: "/my-digital-garden/",
     dir: {
       input: "src/site",
       output: "dist",
